@@ -1,0 +1,291 @@
+<html><head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+      <style>
+
+
+/*
+    Note: It is best to use a less version of this file ( see http://css2less.cc
+    For the media queries use @screen-sm-min instead of 768px.
+    For .omb_spanOr use @body-bg instead of white.
+*/
+
+
+body{
+    background-color: green;
+}
+
+@media (min-width: 768px) {
+    .omb_row-sm-offset-3 div:first-child[class*="col-"] {
+        margin-left: 25%;
+    }
+}
+
+.omb_login .omb_authTitle {
+    text-align: center;
+	line-height: 300%;
+}
+
+.omb_login .omb_socialButtons a {
+	color: white; // In yourUse @body-bg
+	opacity:0.9;
+}
+.omb_login .omb_socialButtons a:hover {
+    color: white;
+	opacity:1;
+}
+.omb_login .omb_socialButtons .omb_btn-facebook {background: #3b5998;}
+.omb_login .omb_socialButtons .omb_btn-twitter {background: #00aced;}
+.omb_login .omb_socialButtons .omb_btn-google {background: #c32f10;}
+
+
+.omb_login .omb_loginOr {
+	position: relative;
+	font-size: 1.5em;
+	color: #aaa;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.omb_login .omb_loginOr .omb_hrOr {
+	background-color: #cdcdcd;
+	height: 1px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.omb_login .omb_loginOr .omb_spanOr {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -0.6em;
+	margin-left: -1.5em;
+	background-color: white;
+	width: 3em;
+	text-align: center;
+}
+
+.omb_login .omb_loginForm .input-group.i {
+	width: 2em;
+}
+.omb_login .omb_loginForm  .help-block {
+    color: red;
+}
+
+
+@media (min-width: 768px) {
+    .omb_login .omb_forgotPwd {
+        text-align: right;
+		margin-top:10px;
+ 	}
+}
+
+.checkbox{
+    color: chartreuse;
+}
+      </style>
+  </head>
+
+
+  <body style="">
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+
+
+    <div class="omb_login">
+    	<h3 class="omb_authTitle" style="color: yellowgreen">Welcome to my page </h3>
+
+		<div class="row omb_row-sm-offset-3 omb_socialButtons">
+    	    <div class="col-xs-4 col-sm-2">
+
+	        </div>
+        	<div class="col-xs-4 col-sm-2">
+		         <a href="/accounts/facebook/login/?process=login" class="btn btn-lg btn-block omb_btn-facebook">
+			        <i class="fa fa-facebook visible-xs"></i>
+			        <span class="hidden-xs">Facebook</span>
+		        </a>
+	        </div>
+        	<div class="col-xs-4 col-sm-2">
+
+	        </div>
+		</div>
+
+		<div class="row omb_row-sm-offset-3 omb_loginOr">
+			<div class="col-xs-12 col-sm-6">
+				<hr class="omb_hrOr">
+				<span class="omb_spanOr">or</span>
+			</div>
+		</div>
+
+		<div class="row omb_row-sm-offset-3">
+			<div class="col-xs-12 col-sm-6">
+                <form class="omb_loginForm" method="POST" action="/accounts/login/"><input type="hidden" name="csrfmiddlewaretoken" value="y16YKeUGANqmarA5gW0iA6USxfCnLPbckIvymtPDtvAhP3LU7gT0wDy7C7QqBwpx">
+
+					<div class="input-group">
+						<span class="input-group-addon"><i class="fa fa-user"></i></span>
+						<input type="text" class="form-control" name="login" placeholder="email address">
+					</div>
+					<span class="help-block"></span>
+
+					<div class="input-group">
+						<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+						<input type="password" class="form-control" name="password" placeholder="Password">
+					</div>
+
+
+
+
+
+
+
+
+
+<br>
+
+                    <div class="row">
+                        <div class="col-xs-offset-1 col-xs-4">
+
+					<button class="btn btn-primary btn-primary " type="submit" style="padding-left:30px; padding-right: 30px ;font-size: 20px;">Login</button>
+                        </div>
+
+                        <div>
+                    <a href="/accounts/signup/" class="btn btn-primary btn-success" style="font-size:20px " type="submit">Create an account</a>
+                        </div>
+                    </div>
+
+<br>
+				</form>
+			</div>
+    	</div>
+		<div class="row">
+			<div class=" col-xs-offset-1 col-sm-offset-1  col-xs-5 col-sm-4 col-md-offset-1 col-md-2 ">
+				<label class="checkbox" style="font-size:17px">
+					<input type="checkbox" name="remember" value="remember-me">Remember Me
+				</label>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-4">
+				<p class="omb_forgotPwd" style="font-size:20px;margin-top:9px">
+					<a href="/accounts/password/reset/">Forgot password?</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+  
+
+</body></html>
